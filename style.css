@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: "Poppins light";
+    src: url(Poppins/Poppins-Light.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+body {
+    background-color: hsl(0, 0%, 98%);
+}
+.contener{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
+.FirstP {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+.reguler{
+    color: hsl(0, 0%, 53%);
+    font-family: "Poppins light";
+}
+.bold{
+    color: hsl(0, 0%, 31%);
+    font-weight: bolder;
+}
+.discription{
+    margin-top: 20px;
+    width: 510px;
+    align-items: center;
+}
+.discription p{
+    margin-left: 220px;
+    width: 510px;
+    margin-right: -400px;
+    text-align:center ;
+    color: hsl(229, 6%, 66%);
+    font-family:"Poppins light" ;
+    font-size: 15px;
+}
+.card{
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+.card-1::after{
+    content: "";
+    position: absolute;
+    margin-left: -290px;
+    margin-top: -105px;
+    background-color: hsl(180, 62%, 55%);
+    width: 300px;
+    height: 3px;
+    border-radius: 2px 2px 0px 0px;
+    
+}
+#left {
+        margin-bottom: -220px;
+    grid-column: 1;
+    /* Align this card to the left column */
+}
+
+#middle-1 {
+    grid-column: 2;
+    /* Align these cards to the middle column */
+}
+#middle-2 {
+    grid-column: 2;
+    /* Align these cards to the middle column */
+}
+#right {
+    margin-top: -220px;
+    grid-column: 3;
+    /* Align this card to the right column */
+}
+.card-1{
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px hsla(234, 97%, 85%, 0.497);
+}
+.card-1 h2{
+    margin-top: 30px;
+    color:hsl(0, 0%, 31%) ;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-1 p{
+    width: 210px;;
+    margin-top: 10px;
+    color: hsl(229, 6%, 66%);
+    margin-left: 30px;
+    font-size: 12px;
+    font-family:"Poppins light" ;
+}
+.card-1 img{
+    width: 50px;
+    margin-left: 80%;
+    margin-top: 30px;
+}
